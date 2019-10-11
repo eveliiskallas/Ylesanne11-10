@@ -6,10 +6,37 @@ body {
     margin: 0;
     top: 0;
     left: 0;
-    width: 350px;
-    height: 621px;
+
 }
 #page {
     flex-direction: column;
     position: relative;
+    width: 350px;
+    height: 621px;
+    display: flex;
 }
+header {
+    position: relative;
+    height: 100px;
+    border-bottom: 1px solid #000;
+    border-radius: 35px;
+    z-index: 2;
+
+}
+#card {
+    position: relative;
+    border-bottom: 1px solid #000;
+    border-radius: 35px;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.card__info {
+    display: block;
+}
+.info {
+    display:block;
+}
+
+
