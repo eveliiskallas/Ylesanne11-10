@@ -25,9 +25,9 @@ header {
     border-bottom-left-radius: 20px;
     z-index: 5;
     display: block;
-    flex-grow: 1;
     margin-bottom: -20px;   
     background-color: #FFF;
+    height: 120px;
 }
 .header__icons{
     justify-content: space-between;
@@ -48,8 +48,8 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 2;
-    flex-grow: 12;
     margin-bottom: -20px;
+    height: 210px;
     background: #2ebf91;
     background: linear-gradient(to right, #2ebf91, #8360c3);
 
@@ -113,9 +113,9 @@ header {
     position: relative;
     justify-content: center;
     align-items: center;
-    flex-grow: 5;
     background-color: #AA00FF;
     color: #FFF;
+    height: 120px;
 }
 .button{
     position: relative;
