@@ -57,9 +57,20 @@ header {
 }
 .card__info {
     display: block;
+    color: #FFF;
 }
 .info {
     display:block;
+}
+.info input {
+    outline: none;
+    appearance: none;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    background-color: transparent;
+}
+::placeholder{
+    color: #FFF;
 }
 #product {
     position: relative;
