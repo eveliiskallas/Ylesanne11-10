@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 621px;
+}
+#page {
+    flex-direction: column;
+    position: relative;
+}

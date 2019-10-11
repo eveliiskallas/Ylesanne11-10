@@ -4,6 +4,6 @@
     "windows": {
         "command": "explorer.exe"
     },
-    "args": ["2709.html"]
+    "args": ["responsive.html"]
 }
 
