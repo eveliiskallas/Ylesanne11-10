@@ -6,31 +6,51 @@ body {
     margin: 0;
     top: 0;
     left: 0;
-
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 #page {
     flex-direction: column;
     position: relative;
+    display: flex;
     width: 350px;
     height: 621px;
-    display: flex;
 }
 header {
     position: relative;
-    height: 100px;
-    border-bottom: 1px solid #000;
-    border-radius: 35px;
-    z-index: 2;
-
+    border-bottom: 1px solid #FFF;
+    border-bottom-left-radius: 35px;
+    z-index: 3;
+    display: block;
+    flex-grow: 1;
+    margin-bottom: -31px;   
+    background-color: #FFF;
+}
+.header__icons{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+.header__title{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
 }
 #card {
     position: relative;
-    border-bottom: 1px solid #000;
-    border-radius: 35px;
+    border-bottom-left-radius: 35px;
     display: flex;
-    height: 120px;
     align-items: center;
     justify-content: center;
+    z-index: 2;
+    flex-grow: 8;
+    margin-bottom: -30px;
+    background: #59C173;
+    background: -webkit-linear-gradient(to right, #59C173, #a17fe0, #5D26C1); 
+    background: linear-gradient(to right, #59C173, #a17fe0, #5D26C1);
+
 }
 .card__info {
     display: block;
@@ -38,5 +58,45 @@ header {
 .info {
     display:block;
 }
+#product {
+    position: relative;
+    border-bottom: 1px solid #000;
+    border-bottom-left-radius: 35px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    flex-grow: 9;
+    background-color: #000;
+}
+.list {
+    display: block;
+    color: #FFF;
+    margin-top: 40px
+}
+.item {
+    display: flex;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+#continue{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
+
 
 
