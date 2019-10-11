@@ -20,11 +20,11 @@ body {
 header {
     position: relative;
     border-bottom: 1px solid #FFF;
-    border-bottom-left-radius: 35px;
+    border-bottom-left-radius: 20px;
     z-index: 3;
     display: block;
     flex-grow: 1;
-    margin-bottom: -31px;   
+    margin-bottom: -20px;   
     background-color: #FFF;
 }
 .header__icons{
@@ -40,13 +40,13 @@ header {
 }
 #card {
     position: relative;
-    border-bottom-left-radius: 35px;
+    border-bottom-left-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2;
-    flex-grow: 8;
-    margin-bottom: -30px;
+    flex-grow: 7;
+    margin-bottom: -20px;
     background: #59C173;
     background: -webkit-linear-gradient(to right, #59C173, #a17fe0, #5D26C1); 
     background: linear-gradient(to right, #59C173, #a17fe0, #5D26C1);
@@ -61,12 +61,13 @@ header {
 #product {
     position: relative;
     border-bottom: 1px solid #000;
-    border-bottom-left-radius: 35px;
+    border-bottom-left-radius: 20px;
     display: flex;
     justify-content: center;
     z-index: 1;
     flex-grow: 9;
     background-color: #000;
+    margin-bottom: -20px
 }
 .list {
     display: block;
@@ -91,7 +92,9 @@ header {
     position: relative;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 4;
+    background-color: #AA00FF;
+    color: #FFF;
 }
 .button{
     display: flex;
